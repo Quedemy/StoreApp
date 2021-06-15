@@ -12,7 +12,7 @@
 <!-- begining of class -->
     <div class="container">
         <header>
-            <h2 id="store-name">Ogwugwuah Chain Stores</h2>
+            <p id="store-name">Ogwugwuah Chain Stores</p>
             <nav>
                 <button class="nav-link" id="admin">Admin</button>
                 <button class="nav-link" id="store-front">Store Front</button>
@@ -36,67 +36,106 @@
                 </div>
                 <!-- end of product 1 -->
                     <div class="container-product flex-column">
-                        <div class="product-name">Without a silver spoon</div>
+                        <div class="product-name p-text">Without a silver spoon</div>
                         <div class="productImage">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFFLfN2uuq1I_LZlidMvocUjI5t5BSOu5aP7q9ItvoHubNWIaaTvI9F1HsD2dzhT69mI&usqp=CAU" alt="">
                         </div>
                         <div class="other-properties">
-                            <span id="product-price">$ 200.00</span>
-                            <span><button id="add-to-cart">Add to Cart</button></span>
+                            <span id="product-price" class="p-text">$ 200.00</span>
+                            <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
                         </div>
                     </div>
                     <!-- end of product 2 -->
                     
                     <div class="container-product flex-column">
-                        <div class="product-name">Without a silver spoon</div>
+                        <div class="product-name p-text">Without a silver spoon</div>
                         <div class="productImage">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFFLfN2uuq1I_LZlidMvocUjI5t5BSOu5aP7q9ItvoHubNWIaaTvI9F1HsD2dzhT69mI&usqp=CAU"
                                 alt="">
                         </div>
                         <div class="other-properties">
-                            <span id="product-price">$ 200.00</span>
-                            <span><button id="add-to-cart">Add to Cart</button></span>
+                            <span id="product-price" class="p-text">$ 200.00</span>
+                            <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
                         </div>
                     </div>
                     <!-- end of product 1 -->
                         <div class="container-product flex-column">
-                            <div class="product-name">Odenigbo the hunter</div>
+                            <div class="product-name p-text">Odenigbo the hunter</div>
                             <div class="productImage">
                                 <img src="https://freepngdownload.com/image/thumb/book-icon-download-free-png.png" alt="">
                             </div>
                             <div class="other-properties">
-                                <span id="product-price">$ 200.00</span>
-                                <span><button id="add-to-cart">Add to Cart</button></span>
+                                <span id="product-price" class="p-text">$ 200.00</span>
+                                <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
                             </div>
                         </div>
                         <!-- end of product 3 -->
+                            <div class="container-product flex-column">
+                                <div class="product-name p-text">Odenigbo the hunter</div>
+                                <div class="productImage">
+                                    <img src="https://freepngdownload.com/image/thumb/book-icon-download-free-png.png" alt="">
+                                </div>
+                                <div class="other-properties">
+                                    <span id="product-price" class="p-text">$ 200.00</span>
+                                    <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
+                                </div>
+                            </div>
+                            <!-- end of product 3 -->
+                                <div class="container-product flex-column">
+                                    <div class="product-name p-text">Odenigbo the hunter</div>
+                                    <div class="productImage">
+                                        <img src="https://freepngdownload.com/image/thumb/book-icon-download-free-png.png" alt="">
+                                    </div>
+                                    <div class="other-properties">
+                                        <span id="product-price" class="p-text">$ 200.00</span>
+                                        <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
+                                    </div>
+                                </div>
+                                <!-- end of product 3 -->
+                                    <div class="container-product flex-column">
+                                        <div class="product-name p-text">Odenigbo the hunter</div>
+                                        <div class="productImage">
+                                            <img src="https://freepngdownload.com/image/thumb/book-icon-download-free-png.png" alt="">
+                                        </div>
+                                        <div class="other-properties">
+                                            <span id="product-price" class="p-text">$ 200.00</span>
+                                            <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
+                                        </div>
+                                    </div>
+                                    <!-- end of product 3 -->
             </div>
         </div> 
         <!-- End of store page -->
+        
         <div id="frameTwo" class="admin-setup">
             <div class="container-page">
+                
                 <div id="product-block">
                     <div class="block1">
-                        <label for="id"> Product ID:
-                            <input type="number" id="id" class="product-id-admin" name="id">
-                        </label>
-                        <br>
-                        <label for="product-name"> Product Name:
-                            <input type="text" id="product-name" name="product-name" class="product-name-admin">
-                        </label>
-                           <br>
-                        <label for="product-price"> Product Price:
-                            <input type="number" id="product-price" class="product-price-admin" name="product-price">
-                        </label>
-                        <br>
-
-                        <label for="product-qty"> Product Qty:
-                            <input type="number" id="product-qty" class="product-id-admin" name="product-qty">
-                        </label>
+                      <div id="product-input">
+                            <label for="id">
+                                <input type="number" id="id" class="product-id-admin" name="id" placeholder="Product ID">
+                            </label>
+                            <br>
+                            <label for="product-name">
+                                <input type="text" id="product-name" name="product-name" class="product-name-admin" placeholder="Product Name">
+                            </label>
+                            
+                            <label for="product-price">
+                                <input type="text" id="productPrice" class="product-price-admin" name="product-price" placeholder="Product Price">
+                            </label>
+                            <label for="product-qty">
+                                <input type="number" id="product-qty" class="product-id-admin" name="product-qty" placeholder=" Product Qty">
+                            </label>
+                      </div>
+                        <div id="update-edit-delete">
+                            <button id="add-product-item">Add Product to Table</button>
+                            <button id="update-product-item">Update Product Table</button>
+                        </div>
                     </div>
                     <div class="block2">
                         <div class="image-setup">
-                            <label for="product-img"> Product Image:
+                            <label for="product-img"> Product Image Upload
                                 <input type="file" id="product-img" class="product-img-admin" name="product-img" accept="image/png, image/jpeg">
                             </label>
                             <div class="image-preview">
@@ -106,38 +145,54 @@
                         <!-- end of image setup -->
                         <div id="textArea">
                             <label for="product desc"></label>
-                            <textarea name="product-desc" id="" cols="40" rows="6"></textarea>
+                            <textarea name="product-desc" id="" cols="40" rows="10" placeholder="Enter Product Description"></textarea>
                         </div>
                     </div>
                 </div>
                 <!-- end of product block -->
                 <div id="product-table">
-                <p><span id="product-list-header">Product list.</span> We have<span id="product-count">9</span>distinct products and<span id="total-product-qty"> 98</span> items.</p>
-
+                
                 <!-- product list -->
                 <table id="product-list">
-                    <tr>
-                        <th>ID</th>
-                        <th>Product <br> Name</th>
-                        <th>Product <br> Price</th>
-                        <th>Product <br> Description</th>
-                        <th>Product <br> Quantity</th>
-                        <th>Product <br>Image</th>
-                        <th>Update</th>
-                        <th>Delete</th>
-                    </tr>
-                    <tr>
-                        <td id="table-id">1</td>
-                        <td id="table-product">Book 1</td>
-                        <td id="table-price">N 200</td>
-                        <td id="table-desc">Eze goes to school. He lives in the town of enugu.</td>
-                        <td id="table-qty">25</td>
-                        <td id="table-image"><img src="https://freepngimg.com/thumb/book/21935-4-civil-engineering-book-thumb.png"
-                                alt=""></td>
-                        <td id="table-update">Update</td>
-                        <td id="table-delete">Delete</td>
-                
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Product  Name</th>
+                            <th>Product Price</th>
+                            <th>Product Description</th>
+                            <th> Qty</th>
+                            <th>Product Image</th>
+                            <th>Update</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="table-id">1</td>
+                            <td id="table-product">Book 1</td>
+                            <td id="table-price">N 200</td>
+                            <td id="table-desc">Eze goes to school. He lives in the town of enugu.</td>
+                            <td id="table-qty">25</td>
+                            <td id="table-image"><img src="https://freepngimg.com/thumb/book/21935-4-civil-engineering-book-thumb.png" alt="">
+                            </td>
+                            <td id="table-update"><button id="update-product">Update</button></td>
+                            <td id="table-delete"><button id="delete-product">Delete</button></td>
+                        
+                        </tr>
+                        <tr>
+                            <td id="table-id">1</td>
+                            <td id="table-product">Book 1</td>
+                            <td id="table-price">N 200</td>
+                            <td id="table-desc">Eze goes to school. He lives in the town of enugu.</td>
+                            <td id="table-qty">25</td>
+                            <td id="table-image"><img src="https://freepngimg.com/thumb/book/21935-4-civil-engineering-book-thumb.png" alt="">
+                            </td>
+                            <td id="table-update"><button id="update-product">Update</button></td>
+                            <td id="table-delete"><button id="delete-product">Delete</button></td>
+                        
+                        </tr>
+                    </tbody>
+
                 
                 </table>
                 </div>
