@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="store.css">
     <title>Ogwugwuah Chain Stores</title>
 
 </head>
 <body>
-
+<!-- begining of class -->
     <div class="container">
         <header>
             <h2 id="store-name">Ogwugwuah Chain Stores</h2>
@@ -20,22 +21,22 @@
             </nav>
         </header>
         <!-- End of header -->
-        <!-- <div id="frameOne" class="store-page">
+        <div id="frameOne" class="store-page">
             <div class="container-page">
 
                 <div class="container-product flex-column">
-                    <div class="product-name">Name</div>
+                    <div class="product-name p-text">Eze go to school</div>
                     <div class="productImage">
                         <img src="https://freepngimg.com/thumb/book/21935-4-civil-engineering-book-thumb.png" alt="">
                     </div>
                     <div class="other-properties">
-                       <span id="product-price">$ 200.00</span> 
-                       <span><button id="add-to-cart">Add to Cart</button></span>
+                       <span id="product-price" class="p-text">$ 200.00</span> 
+                       <span><button id="add-to-cart" class="p-text">Add to Cart</button></span>
                     </div>
-                </div> -->
+                </div>
                 <!-- end of product 1 -->
-                    <!-- <div class="container-product flex-column">
-                        <div class="product-name">Name</div>
+                    <div class="container-product flex-column">
+                        <div class="product-name">Without a silver spoon</div>
                         <div class="productImage">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFFLfN2uuq1I_LZlidMvocUjI5t5BSOu5aP7q9ItvoHubNWIaaTvI9F1HsD2dzhT69mI&usqp=CAU" alt="">
                         </div>
@@ -43,10 +44,23 @@
                             <span id="product-price">$ 200.00</span>
                             <span><button id="add-to-cart">Add to Cart</button></span>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- end of product 2 -->
-                       <!--  <div class="container-product flex-column">
-                            <div class="product-name">Name</div>
+                    
+                    <div class="container-product flex-column">
+                        <div class="product-name">Without a silver spoon</div>
+                        <div class="productImage">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFFLfN2uuq1I_LZlidMvocUjI5t5BSOu5aP7q9ItvoHubNWIaaTvI9F1HsD2dzhT69mI&usqp=CAU"
+                                alt="">
+                        </div>
+                        <div class="other-properties">
+                            <span id="product-price">$ 200.00</span>
+                            <span><button id="add-to-cart">Add to Cart</button></span>
+                        </div>
+                    </div>
+                    <!-- end of product 1 -->
+                        <div class="container-product flex-column">
+                            <div class="product-name">Odenigbo the hunter</div>
                             <div class="productImage">
                                 <img src="https://freepngdownload.com/image/thumb/book-icon-download-free-png.png" alt="">
                             </div>
@@ -55,9 +69,9 @@
                                 <span><button id="add-to-cart">Add to Cart</button></span>
                             </div>
                         </div>
-                        <!- end of product 3 ->
+                        <!-- end of product 3 -->
             </div>
-        </div> -->
+        </div> 
         <!-- End of store page -->
         <div id="frameTwo" class="admin-setup">
             <div class="container-page">
@@ -96,8 +110,40 @@
                         </div>
                     </div>
                 </div>
+                <!-- end of product block -->
+                <div id="product-table">
+                <p><span id="product-list-header">Product list.</span> We have<span id="product-count">9</span>distinct products and<span id="total-product-qty"> 98</span> items.</p>
+
+                <!-- product list -->
+                <table id="product-list">
+                    <tr>
+                        <th>ID</th>
+                        <th>Product <br> Name</th>
+                        <th>Product <br> Price</th>
+                        <th>Product <br> Description</th>
+                        <th>Product <br> Quantity</th>
+                        <th>Product <br>Image</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td id="table-id">1</td>
+                        <td id="table-product">Book 1</td>
+                        <td id="table-price">N 200</td>
+                        <td id="table-desc">Eze goes to school. He lives in the town of enugu.</td>
+                        <td id="table-qty">25</td>
+                        <td id="table-image"><img src="https://freepngimg.com/thumb/book/21935-4-civil-engineering-book-thumb.png"
+                                alt=""></td>
+                        <td id="table-update">Update</td>
+                        <td id="table-delete">Delete</td>
+                
+                    </tr>
+                
+                </table>
+                </div>
             </div>
         </div>
+        <!-- End of Frame 2-->
 
         <footer>
             <p>Designed by right analytics 2021</p>
